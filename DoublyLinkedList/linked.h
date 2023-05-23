@@ -1,13 +1,14 @@
 #pragma once
 
-struct Node {
-   struct Node* next;
-   struct Node* prev;
-   int data;
+struct Node
+{
+    struct Node *next;
+    struct Node *prev;
+    char data[];
 };
 
-
-struct DoublyLinkedList {
-   struct Node* first;
-   struct Node* last;
+struct DoublyLinkedList
+{
+    struct Node *first;
+    struct Node *last;
 };
