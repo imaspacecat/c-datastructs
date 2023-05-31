@@ -4,7 +4,7 @@ struct Node
 {
     struct Node *next;
     struct Node *prev;
-    char data[];
+    char* data;
 };
 
 struct DoublyLinkedList
